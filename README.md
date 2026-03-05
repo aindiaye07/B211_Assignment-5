@@ -28,5 +28,5 @@ Limitations:
 - While Random Forest and Logistic Regression provide insights, complex can be black boxes
 - Data is really clean; Real-world data requires handling missing values and outliers
 
-- Conclusion:
+Conclusion:
 - The SVM model generally performed best by maximizing the recall for the malignant class, ensuring the highest possible dectection rate.
