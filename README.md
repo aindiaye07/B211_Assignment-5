@@ -29,6 +29,7 @@ Limitations:
 - Data is really clean; Real-world data requires handling missing values and outliers
 
 Pros and Cons of Models:
+
 SVM:
 - Pros: High precision in detecting malignancies; Good for high-dimensional data
 - Con: Less interpretable than trees
