@@ -28,5 +28,22 @@ Limitations:
 - While Random Forest and Logistic Regression provide insights, complex can be black boxes
 - Data is really clean; Real-world data requires handling missing values and outliers
 
+Pros and Cons of Models:
+SVM:
+- Pros: High precision in detecting malignancies; Good for high-dimensional data
+- Con: Less interpretable than trees
+
+Logistic Regression
+- Pros: High accuracy, fast to tain, and provides probability scores
+- Cons: Can be sensitive to outliers
+
+Random Forest:
+- Pros: Handles non-linear data well; Robust againt overfitting.
+- Cons: Has lower accuracy compared to SVM
+
+
 Conclusion:
 - The SVM model generally performed best by maximizing the recall for the malignant class, ensuring the highest possible dectection rate.
+- In context of cancer detection, maximizing recall is more important than overall accuracy because missing a diagnosis (False Negative) is more dangerous than a false alarm (False Positive).
+- Frequently produces highest recall and lowest false negative, meaning it rarely misses maligant cases.
+- Was highly effective at finding the margin from benign to malignant tumors.
