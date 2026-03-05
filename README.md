@@ -12,10 +12,10 @@ Dataset:
 
 Implementation:
 - Data Preprocessing (Was split into 80% training and 20% testing using a stratified split to maintain class balance ('random_state=42')
-- Scaling = 'StandardScaler' was applied to features for SVM and Logistic Regression to ensure proper convergence.
-- Model 1 (SVM) = Linear nature of data features.
-- Model 2 (Random Forest) = Able to handle feature importance.
-- Model 3 (Logistic Regression) = Robust linear model.
+- Scaling = 'StandardScaler' was applied to features for SVM and Logistic Regression to ensure proper convergence
+- Model 1 (SVM) = Linear nature of data features
+- Model 2 (Random Forest) = Able to handle feature importance
+- Model 3 (Logistic Regression) = Robust linear model
 
 Evaluation Metrics:
 - Accuracy
@@ -39,7 +39,7 @@ Logistic Regression
 - Cons: Can be sensitive to outliers
 
 Random Forest:
-- Pros: Handles non-linear data well; Robust againt overfitting.
+- Pros: Handles non-linear data well; Robust againt overfitting
 - Cons: Has lower accuracy compared to SVM
 
 
